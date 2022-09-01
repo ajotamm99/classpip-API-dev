@@ -140,6 +140,14 @@
       "options": {
         "nestRemoting": true
       }
+    },
+    "juegodeEscapeRooms": {
+      "type": "hasMany",
+      "model": "JuegodeEscapeRoom",
+      "foreignKey": "grupoId",
+      "options": {
+        "nestRemoting": true
+      }
     }
   },
   "acls": [],

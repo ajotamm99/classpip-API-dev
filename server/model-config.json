@@ -462,5 +462,21 @@
   "EquipoJuegoDeVotacionTodosAUno": {
     "dataSource": "baseDatos",
     "public": true
+  },
+  "JuegodeEscapeRoom": {
+    "dataSource": "db",
+    "public": true
+  },
+  "AlumnoJuegodeEscaperoom": {
+    "dataSource": "db",
+    "public": true
+  },
+  "EquipoJuegodeEscaperoom": {
+    "dataSource": "db",
+    "public": true
+  },
+  "EscenarioEscapeRoom": {
+    "dataSource": "db",
+    "public": true
   }
 }

@@ -209,6 +209,15 @@
         "nestRemoting": true
       },
       "through": "AlumnoJuegoDeCompeticionTorneo"
+    },
+    "juegodeEscapeRooms": {
+      "type": "hasMany",
+      "model": "JuegodeEscapeRoom",
+      "foreignKey": "alumnoId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "AlumnoJuegodeEscaperoom"
     }
   },
   "acls": [],

@@ -1,0 +1,38 @@
+{
+  "name": "JuegodeEscapeRoom",
+  "plural": "juegoescaperoom",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "online": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "presencial": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    }
+  },
+  "validations": [],
+  "relations": {
+    "alumnos": {
+      "type": "hasMany",
+      "model": "Alumno",
+      "foreignKey": "juegoDeEscaperoomId",
+      "through": "AlumnoJuegodeEscaperoom"
+    },
+    "equipos": {
+      "type": "hasMany",
+      "model": "Equipo",
+      "foreignKey": "juegoDeEscaperoomId",
+      "through": "EquipoJuegodeEscaperoom"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

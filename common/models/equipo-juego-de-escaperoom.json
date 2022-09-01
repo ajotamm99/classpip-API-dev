@@ -1,0 +1,29 @@
+{
+  "name": "EquipoJuegodeEscaperoom",
+  "plural": "equipoescaperoom",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "puntuacion": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "equipo": {
+      "type": "belongsTo",
+      "model": "Equipo",
+      "foreignKey": "equipoId"
+    },
+    "juegodeEscapeRoom": {
+      "type": "belongsTo",
+      "model": "JuegodeEscapeRoom",
+      "foreignKey": "juegoDeEscaperoomId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

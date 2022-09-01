@@ -1,0 +1,29 @@
+{
+  "name": "AlumnoJuegodeEscaperoom",
+  "plural": "alumnoescaperoom",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "puntuacion": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "alumno": {
+      "type": "belongsTo",
+      "model": "Alumno",
+      "foreignKey": "alumnoId"
+    },
+    "juegodeEscapeRoom": {
+      "type": "belongsTo",
+      "model": "JuegodeEscapeRoom",
+      "foreignKey": "juegoDeEscaperoomId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

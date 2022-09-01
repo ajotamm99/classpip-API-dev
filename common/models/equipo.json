@@ -110,6 +110,12 @@
       "model": "JuegoDeVotacionTodosAUno",
       "foreignKey": "equipoId",
       "through": "EquipoJuegoDeVotacionTodosAUno"
+    },
+    "juegodeEscapeRooms": {
+      "type": "hasMany",
+      "model": "JuegodeEscapeRoom",
+      "foreignKey": "equipoId",
+      "through": "EquipoJuegodeEscaperoom"
     }
   },
   "acls": [],
