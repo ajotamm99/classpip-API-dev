@@ -18,6 +18,10 @@
     "Imagen": {
       "type": "string",
       "required": true
+    },
+    "Publica": {
+      "type": "boolean",
+      "default": false
     }
   },
   "validations": [],

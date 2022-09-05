@@ -14,6 +14,10 @@
     "Descripcion": {
       "type": "string",
       "required": false
+    },
+    "Publica": {
+      "type": "boolean",
+      "default": false
     }
   },
   "validations": [],

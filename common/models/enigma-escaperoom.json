@@ -15,6 +15,10 @@
     },
     "Tipo": {
       "type": "string"
+    },
+    "Publica": {
+      "type": "boolean",
+      "default": false
     }
   },
   "validations": [],

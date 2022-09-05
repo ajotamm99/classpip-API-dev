@@ -237,7 +237,7 @@
       "12": "{\"Nombre\":\"aaa\",\"Descripcion\":\"aaa\",\"profesorId\":14,\"id\":12}"
     },
     "Coleccion": {
-      "19": "{\"Nombre\":\"Mafala\",\"ImagenColeccion\":\"mafalda_logo.jpg\",\"DosCaras\":true,\"Publica\":true,\"profesorId\":14,\"id\":19}",
+      "19": "{\"Nombre\":\"Mafala\",\"ImagenColeccion\":\"mafalda_logo.jpg\",\"DosCaras\":true,\"Publica\":false,\"profesorId\":14,\"id\":19}",
       "21": "{\"Nombre\":\"Cien Años de Soledad\",\"ImagenColeccion\":\"cienanosdesoledadlogo.png\",\"DosCaras\":true,\"Publica\":false,\"profesorId\":14,\"id\":21}",
       "23": "{\"Nombre\":\"Compositores\",\"ImagenColeccion\":\"compositores.png\",\"DosCaras\":true,\"Publica\":false,\"profesorId\":14,\"id\":23}",
       "24": "{\"Nombre\":\"Comandos Linux\",\"ImagenColeccion\":\"linux.jpg\",\"DosCaras\":true,\"Publica\":false,\"profesorId\":14,\"id\":24}"
