@@ -60,14 +60,6 @@
       "options": {
         "nestRemoting": true
       }
-    },
-    "escenaEscapeRooms": {
-      "type": "hasMany",
-      "model": "EscenaEscapeRoom",
-      "foreignKey": "juegoDeEscaperoomId",
-      "options": {
-        "nestRemoting": true
-      }
     }
   },
   "acls": [],

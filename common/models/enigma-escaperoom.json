@@ -8,7 +8,7 @@
   },
   "properties": {
     "Nombre": {
-      "type": "number"
+      "type": "string"
     },
     "Dificultad": {
       "type": "string"
