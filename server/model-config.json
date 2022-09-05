@@ -478,5 +478,37 @@
   "EscenarioEscapeRoom": {
     "dataSource": "db",
     "public": true
+  },
+  "EscenaEscapeRoom": {
+    "dataSource": "db",
+    "public": true
+  },
+  "EscenaActiva": {
+    "dataSource": "db",
+    "public": true
+  },
+  "EnigmaEscaperoom": {
+    "dataSource": "db",
+    "public": true
+  },
+  "EnigmaActivo": {
+    "dataSource": "db",
+    "public": true
+  },
+  "ObjetoEscaperoom": {
+    "dataSource": "db",
+    "public": true
+  },
+  "ObjetoActivo": {
+    "dataSource": "db",
+    "public": true
+  },
+  "SkinActiva": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Skin": {
+    "dataSource": "db",
+    "public": true
   }
 }

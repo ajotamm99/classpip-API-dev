@@ -1,0 +1,27 @@
+{
+  "name": "EscenaEscapeRoom",
+  "plural": "escenasescaperoom",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Nombre": {
+      "type": "string",
+      "required": true
+    },
+    "Archivo": {
+      "type": "string",
+      "required": true
+    },
+    "Tilesheet": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

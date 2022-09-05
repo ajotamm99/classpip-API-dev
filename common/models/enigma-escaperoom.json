@@ -1,0 +1,43 @@
+{
+  "name": "EnigmaEscaperoom",
+  "plural": "enigmasescaperoom",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Nombre": {
+      "type": "number"
+    },
+    "Dificultad": {
+      "type": "string"
+    },
+    "Tipo": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "alumnoJuegodeEscaperooms": {
+      "type": "hasMany",
+      "model": "AlumnoJuegodeEscaperoom",
+      "foreignKey": "alumnoJuegodeEscaperoomId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "EnigmaActivo"
+    },
+    "equipoJuegodeEscaperooms": {
+      "type": "hasMany",
+      "model": "EquipoJuegodeEscaperoom",
+      "foreignKey": "equipoJuegodeEscaperoomId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "EnigmaActivo"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

@@ -175,6 +175,31 @@
       "type": "hasMany",
       "model": "RecursosCuento",
       "foreignKey": "profesorId"
+    },
+    "escenaEscaperoom": {
+      "type": "hasMany",
+      "model": "EscenaEscapeRoom",
+      "foreignKey": "profesorId"
+    },
+    "enigmaEscaperooms": {
+      "type": "hasMany",
+      "model": "EnigmaEscaperoom",
+      "foreignKey": "profesorId"
+    },
+    "escenarioEscapeRooms": {
+      "type": "hasMany",
+      "model": "EscenarioEscapeRoom",
+      "foreignKey": "profesorId"
+    },
+    "objetoEscaperooms": {
+      "type": "hasMany",
+      "model": "ObjetoEscaperoom",
+      "foreignKey": "profesorId"
+    },
+    "skins": {
+      "type": "hasMany",
+      "model": "Skin",
+      "foreignKey": "profesorId"
     }
   },
   "acls": [],

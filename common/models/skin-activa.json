@@ -1,0 +1,31 @@
+{
+  "name": "SkinActiva",
+  "plural": "skinactivas",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "alumno": {
+      "type": "belongsTo",
+      "model": "Alumno",
+      "foreignKey": "alumnoId",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "skin": {
+      "type": "belongsTo",
+      "model": "Skin",
+      "foreignKey": "skinId",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,46 @@
+{
+  "name": "ObjetoEscaperoom",
+  "plural": "objetosescaperoom",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Tipo": {
+      "type": "string",
+      "required": true
+    },
+    "Nombre": {
+      "type": "string",
+      "required": true
+    },
+    "Imagen": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "alumnoJuegodeEscaperooms": {
+      "type": "hasMany",
+      "model": "AlumnoJuegodeEscaperoom",
+      "foreignKey": "alumnoJuegodeEscaperoomId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "ObjetoActivo"
+    },
+    "equipoJuegodeEscaperooms": {
+      "type": "hasMany",
+      "model": "EquipoJuegodeEscaperoom",
+      "foreignKey": "equipoJuegodeEscaperoomId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "ObjetoActivo"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

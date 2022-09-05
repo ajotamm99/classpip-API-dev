@@ -7,8 +7,17 @@
     "validateUpsert": true
   },
   "properties": {
-    "puntuacion": {
-      "type": "number"
+    "PuntosTotalesAlumno": {
+      "type": "number",
+      "required": true
+    },
+    "TiempoEnResolver": {
+      "type": "number",
+      "required": true
+    },
+    "Resuelto": {
+      "type": "boolean",
+      "required": true
     }
   },
   "validations": [],
@@ -22,6 +31,24 @@
       "type": "belongsTo",
       "model": "JuegodeEscapeRoom",
       "foreignKey": "juegoDeEscaperoomId"
+    },
+    "enigmaEscaperooms": {
+      "type": "hasMany",
+      "model": "EnigmaEscaperoom",
+      "foreignKey": "enigmaEscaperoomId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "EnigmaActivo"
+    },
+    "objetoEscaperooms": {
+      "type": "hasMany",
+      "model": "ObjetoEscaperoom",
+      "foreignKey": "objetoEscaperoomId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "ObjetoActivo"
     }
   },
   "acls": [],

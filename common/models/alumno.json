@@ -218,6 +218,15 @@
         "nestRemoting": true
       },
       "through": "AlumnoJuegodeEscaperoom"
+    },
+    "skins": {
+      "type": "hasMany",
+      "model": "Skin",
+      "foreignKey": "skinId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "SkinActiva"
     }
   },
   "acls": [],

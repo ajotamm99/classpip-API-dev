@@ -7,16 +7,37 @@
     "validateUpsert": true
   },
   "properties": {
-    "online": {
+    "Nombre": {
+      "type": "string",
+      "required": true
+    },
+    "Tipo": {
+      "type": "string",
+      "required": true
+    },
+    "Modo": {
+      "type": "string",
+      "required": true
+    },
+    "Activo": {
+      "type": "boolean",
+      "required": true,
+      "default": true
+    },
+    "Online": {
       "type": "boolean",
       "required": true,
       "default": false
     },
-    "presencial": {
+    "Terminado": {
       "type": "boolean",
-      "required": true,
       "default": false
+    },
+    "TiempoLimite": {
+      "type": "number",
+      "required": true
     }
+
   },
   "validations": [],
   "relations": {
@@ -31,6 +52,22 @@
       "model": "Equipo",
       "foreignKey": "juegoDeEscaperoomId",
       "through": "EquipoJuegodeEscaperoom"
+    },
+    "escenaActivas": {
+      "type": "hasMany",
+      "model": "EscenaActiva",
+      "foreignKey": "juegoDeEscaperoomId",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "escenaEscapeRooms": {
+      "type": "hasMany",
+      "model": "EscenaEscapeRoom",
+      "foreignKey": "juegoDeEscaperoomId",
+      "options": {
+        "nestRemoting": true
+      }
     }
   },
   "acls": [],

@@ -7,19 +7,34 @@
     "validateUpsert": true
   },
   "properties": {
-    "nombre": {
+    "Nombre": {
       "type": "string",
       "required": true
     },
-    "tilesheet": {
-      "type": [
-        "string"
-      ],
-      "required": true
+    "Descripcion": {
+      "type": "string",
+      "required": false
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "escenaEscapeRooms": {
+      "type": "hasMany",
+      "model": "EscenaEscapeRoom",
+      "foreignKey": "escenarioEscapeRoomId",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "juegodeEscapeRooms": {
+      "type": "hasMany",
+      "model": "JuegodeEscapeRoom",
+      "foreignKey": "escenarioEscaperoomId",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }

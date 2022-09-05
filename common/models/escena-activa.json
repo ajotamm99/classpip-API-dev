@@ -1,0 +1,31 @@
+{
+  "name": "EscenaActiva",
+  "plural": "escenaescaperoomactiva",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "escenarioEscapeRoom": {
+      "type": "belongsTo",
+      "model": "EscenarioEscapeRoom",
+      "foreignKey": "escenarioEscaperoomId",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "escenaEscapeRoom": {
+      "type": "belongsTo",
+      "model": "EscenaEscapeRoom",
+      "foreignKey": "escenaEscaperoomId",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
