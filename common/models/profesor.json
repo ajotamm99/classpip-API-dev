@@ -176,11 +176,6 @@
       "model": "RecursosCuento",
       "foreignKey": "profesorId"
     },
-    "escenaEscaperoom": {
-      "type": "hasMany",
-      "model": "EscenaEscapeRoom",
-      "foreignKey": "profesorId"
-    },
     "enigmaEscaperooms": {
       "type": "hasMany",
       "model": "EnigmaEscaperoom",
