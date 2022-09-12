@@ -464,51 +464,51 @@
     "public": true
   },
   "JuegodeEscapeRoom": {
-    "dataSource": "db",
+    "dataSource": "baseDatos",
     "public": true
   },
   "AlumnoJuegodeEscaperoom": {
-    "dataSource": "db",
+    "dataSource": "baseDatos",
     "public": true
   },
   "EquipoJuegodeEscaperoom": {
-    "dataSource": "db",
+    "dataSource": "baseDatos",
     "public": true
   },
   "EscenarioEscapeRoom": {
-    "dataSource": "db",
+    "dataSource": "baseDatos",
     "public": true
   },
   "EscenaEscapeRoom": {
-    "dataSource": "db",
+    "dataSource": "baseDatos",
     "public": true
   },
   "EscenaActiva": {
-    "dataSource": "db",
+    "dataSource": "baseDatos",
     "public": true
   },
   "EnigmaEscaperoom": {
-    "dataSource": "db",
+    "dataSource": "baseDatos",
     "public": true
   },
   "EnigmaActivo": {
-    "dataSource": "db",
+    "dataSource": "baseDatos",
     "public": true
   },
   "ObjetoEscaperoom": {
-    "dataSource": "db",
+    "dataSource": "baseDatos",
     "public": true
   },
   "ObjetoActivo": {
-    "dataSource": "db",
+    "dataSource": "baseDatos",
     "public": true
   },
   "SkinActiva": {
-    "dataSource": "db",
+    "dataSource": "baseDatos",
     "public": true
   },
   "Skin": {
-    "dataSource": "db",
+    "dataSource": "baseDatos",
     "public": true
   }
 }

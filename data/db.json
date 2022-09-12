@@ -94,7 +94,8 @@
     "Familia": 62,
     "Carta": 257,
     "JuegoDeMemorama": 10,
-    "AlumnoJuegoDeMemorama": 71
+    "AlumnoJuegoDeMemorama": 71,
+    "EscenarioEscapeRoom": 2
   },
   "models": {
     "Profesor": {
@@ -1821,6 +1822,9 @@
       "256": "{\"Nombre\":\"imagen9\",\"imagenDelante\":\"bajo_el_mar_9.png\",\"imagenDetras\":\"bajo_el_mar_dorso.png\",\"familiaId\":61,\"id\":256,\"relacion\":248}"
     },
     "JuegoDeMemorama": {},
-    "AlumnoJuegoDeMemorama": {}
+    "AlumnoJuegoDeMemorama": {},
+    "EscenarioEscapeRoom": {
+      "1": "{\"Nombre\":\"aa\",\"Descripcion\":\"bb\",\"Publica\":false,\"profesorId\":14,\"id\":1}"
+    }
   }
 }
