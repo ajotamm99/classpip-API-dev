@@ -49,6 +49,15 @@
         "nestRemoting": true
       },
       "through": "ObjetoActivo"
+    },
+    "pregunta": {
+      "type": "hasMany",
+      "model": "Pregunta",
+      "foreignKey": "alumnoJuegoDeEscaperoomId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "RespuestaAlumnoJugoDeEscaperoom"
     }
   },
   "acls": [],

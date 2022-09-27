@@ -89,6 +89,33 @@
       "model": "EquipoJuegoDeCuestionario",
       "foreignKey": "preguntaId",
       "through": "RespuestaEquipoJuegoDeCuestionario"
+    },
+    "objetoActivos": {
+      "type": "hasMany",
+      "model": "ObjetoActivo",
+      "foreignKey": "preguntaId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "PreguntaActiva"
+    },
+    "alumnoJuegodeEscaperooms": {
+      "type": "hasMany",
+      "model": "AlumnoJuegodeEscaperoom",
+      "foreignKey": "preguntaId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "RespuestaAlumnoJuegoDeEscaperoom"
+    },
+    "equipoJuegodeEscaperooms": {
+      "type": "hasMany",
+      "model": "EquipoJuegodeEscaperoom",
+      "foreignKey": "preguntaId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "RespuestaEquipoJuegoDeEscaperoom"
     }
   },
   "acls": [],

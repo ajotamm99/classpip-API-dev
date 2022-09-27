@@ -6,7 +6,12 @@
   "options": {
     "validateUpsert": true
   },
-  "properties": {},
+  "properties": {
+    "orden": {
+      "type": "string",
+      "required": true
+    }
+  },
   "validations": [],
   "relations": {
     "escenarioEscapeRoom": {
@@ -21,6 +26,14 @@
       "type": "belongsTo",
       "model": "EscenaEscapeRoom",
       "foreignKey": "escenaEscaperoomId",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "objetoActivos": {
+      "type": "hasMany",
+      "model": "ObjetoActivo",
+      "foreignKey": "escenaActivaId",
       "options": {
         "nestRemoting": true
       }

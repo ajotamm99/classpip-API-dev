@@ -510,5 +510,17 @@
   "Skin": {
     "dataSource": "baseDatos",
     "public": true
+  },
+  "PreguntaActiva": {
+    "dataSource": "baseDatos",
+    "public": true
+  },
+  "RespuestaEquipoJuegoDeEscaperoom": {
+    "dataSource": "baseDatos",
+    "public": true
+  },
+  "RespuestaAlumnoJuegoDeEscaperoom": {
+    "dataSource": "baseDatos",
+    "public": true
   }
 }

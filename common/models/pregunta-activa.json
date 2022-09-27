@@ -1,0 +1,31 @@
+{
+  "name": "PreguntaActiva",
+  "plural": "preguntasactivas",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "pregunta": {
+      "type": "belongsTo",
+      "model": "Pregunta",
+      "foreignKey": "preguntaId",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "objetoActivo": {
+      "type": "belongsTo",
+      "model": "ObjetoActivo",
+      "foreignKey": "objetoActivoId",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

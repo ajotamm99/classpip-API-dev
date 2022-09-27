@@ -16,6 +16,34 @@
       "type": "boolean",
       "required": true,
       "default": false
+    },
+    "MochilaBool": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "PistaBool": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "MovilBool": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "PreguntaBool": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "PistaString": {
+      "type": "string",
+      "required": false
+    },
+    "Lugar": {
+      "type": "string",
+      "required": true
     }
   },
   "validations": [],
@@ -43,6 +71,15 @@
       "options": {
         "nestRemoting": true
       }
+    },
+    "pregunta": {
+      "type": "hasMany",
+      "model": "Pregunta",
+      "foreignKey": "objetoActivoId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "PreguntaActiva"
     }
   },
   "acls": [],

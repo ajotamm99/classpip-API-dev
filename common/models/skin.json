@@ -19,7 +19,6 @@
       "type": "boolean",
       "default": false
     }
-
   },
   "validations": [],
   "relations": {

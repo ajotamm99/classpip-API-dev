@@ -95,7 +95,11 @@
     "Carta": 257,
     "JuegoDeMemorama": 10,
     "AlumnoJuegoDeMemorama": 71,
-    "EscenarioEscapeRoom": 2
+    "EscenarioEscapeRoom": 53,
+    "EscenaEscapeRoom": 96,
+    "ObjetoEscaperoom": 15,
+    "EnigmaEscaperoom": 7,
+    "Skin": 23
   },
   "models": {
     "Profesor": {
@@ -1808,7 +1812,7 @@
       "48": "{\"alumnoId\":142,\"juegoDeVotacionAOpcionesId\":8,\"id\":48}"
     },
     "Familia": {
-      "61": "{\"Nombre\":\"Basjo el mar\",\"ImagenFamilia\":\"familia_bajo_el_mar.png\",\"profesorId\":14,\"Publica\":false,\"relacion\":\"false\",\"id\":61}"
+      "61": "{\"id\":61,\"Nombre\":\"Basjo el mar\",\"ImagenFamilia\":\"familia_bajo_el_mar.png\",\"profesorId\":14,\"Publica\":false,\"relacion\":\"false\"}"
     },
     "Carta": {
       "248": "{\"Nombre\":\"imagen1\",\"imagenDelante\":\"bajo_el_mar_1.png\",\"imagenDetras\":\"bajo_el_mar_dorso.png\",\"familiaId\":61,\"id\":248,\"relacion\":249}",
@@ -1824,7 +1828,21 @@
     "JuegoDeMemorama": {},
     "AlumnoJuegoDeMemorama": {},
     "EscenarioEscapeRoom": {
-      "1": "{\"Nombre\":\"aa\",\"Descripcion\":\"bb\",\"Publica\":false,\"profesorId\":14,\"id\":1}"
+      "52": "{\"Nombre\":\"wtrh\",\"Descripcion\":\"w46j\",\"Publica\":true,\"profesorId\":14,\"id\":52}"
+    },
+    "EscenaEscapeRoom": {
+      "94": "{\"Nombre\":\"srth\",\"Archivo\":\"14example_1.json\",\"Tilesheet\":\"14candleA_04.png\",\"Publica\":false,\"escenarioEscapeRoomId\":52,\"id\":94}",
+      "95": "{\"Nombre\":\"aerhdtnsd\",\"Archivo\":\"14example_1 - copia - copia.json\",\"Tilesheet\":\"14ash.png\",\"Publica\":false,\"escenarioEscapeRoomId\":52,\"id\":95}"
+    },
+    "ObjetoEscaperoom": {
+      "14": "{\"Tipo\":\"pista\",\"Nombre\":\"wrj\",\"Imagen\":\"14decorative.png\",\"Publica\":true,\"profesorId\":14,\"id\":14}"
+    },
+    "EnigmaEscaperoom": {
+      "5": "{\"Nombre\":\"t\",\"Dificultad\":\"media\",\"Tipo\":\"mapa\",\"Publica\":false,\"profesorId\":14,\"id\":5}",
+      "6": "{\"Nombre\":\"quepasa345345\",\"Dificultad\":\"baja\",\"Tipo\":\"llave\",\"Publica\":false,\"profesorId\":14,\"id\":6}"
+    },
+    "Skin": {
+      "22": "{\"Nombre\":\"yj\",\"Spritesheet\":\"14ash.png\",\"Publica\":false,\"profesorId\":14,\"id\":22}"
     }
   }
 }

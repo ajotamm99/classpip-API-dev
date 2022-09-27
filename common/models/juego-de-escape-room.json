@@ -37,7 +37,6 @@
       "type": "number",
       "required": true
     }
-
   },
   "validations": [],
   "relations": {

@@ -1,0 +1,32 @@
+{
+  "name": "RespuestaEquipoJuegoDeEscaperoom",
+  "plural": "repuestaequipojuegodeescaperoom",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Respuesta": {
+      "type": [
+        "string"
+      ],
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {
+    "pregunta": {
+      "type": "belongsTo",
+      "model": "Pregunta",
+      "foreignKey": "preguntaId"
+    },
+    "equipoJuegodeEscaperoom": {
+      "type": "belongsTo",
+      "model": "EquipoJuegodeEscaperoom",
+      "foreignKey": "equipoJuegoDeEscaperoomId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
