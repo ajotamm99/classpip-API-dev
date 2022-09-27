@@ -22,6 +22,11 @@
     "Publica": {
       "type": "boolean",
       "default": false
+    },
+    "Lugares": {
+      "type": [
+        "string"
+      ]
     }
   },
   "validations": [],
