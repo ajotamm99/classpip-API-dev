@@ -99,15 +99,6 @@
       },
       "through": "PreguntaActiva"
     },
-    "alumnoJuegodeEscaperooms": {
-      "type": "hasMany",
-      "model": "AlumnoJuegodeEscaperoom",
-      "foreignKey": "preguntaId",
-      "options": {
-        "nestRemoting": true
-      },
-      "through": "RespuestaAlumnoJuegoDeEscaperoom"
-    },
     "equipoJuegodeEscaperooms": {
       "type": "hasMany",
       "model": "EquipoJuegodeEscaperoom",
@@ -116,6 +107,12 @@
         "nestRemoting": true
       },
       "through": "RespuestaEquipoJuegoDeEscaperoom"
+    },
+    "alumnoJuegodeEscaperooms": {
+      "type": "hasMany",
+      "model": "AlumnoJuegodeEscaperoom",
+      "foreignKey": "preguntaId",
+      "through": "RespuestaAlumnoJuegoDeEscaperoom"
     }
   },
   "acls": [],

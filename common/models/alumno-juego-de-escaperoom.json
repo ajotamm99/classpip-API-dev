@@ -54,10 +54,7 @@
       "type": "hasMany",
       "model": "Pregunta",
       "foreignKey": "alumnoJuegoDeEscaperoomId",
-      "options": {
-        "nestRemoting": true
-      },
-      "through": "RespuestaAlumnoJugoDeEscaperoom"
+      "through": "RespuestaAlumnoJuegoDeEscaperoom"
     }
   },
   "acls": [],

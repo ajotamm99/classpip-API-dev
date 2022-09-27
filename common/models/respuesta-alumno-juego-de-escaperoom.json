@@ -10,8 +10,7 @@
     "Respuesta": {
       "type": [
         "string"
-      ],
-      "required": false
+      ]
     }
   },
   "validations": [],

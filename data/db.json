@@ -1842,7 +1842,7 @@
       "6": "{\"Nombre\":\"quepasa345345\",\"Dificultad\":\"baja\",\"Tipo\":\"llave\",\"Publica\":false,\"profesorId\":14,\"id\":6}"
     },
     "Skin": {
-      "22": "{\"Nombre\":\"yj\",\"Spritesheet\":\"14ash.png\",\"Publica\":false,\"profesorId\":14,\"id\":22}"
+      "22": "{\"Nombre\":\"yj\",\"Spritesheet\":\"14ash.png\",\"Publica\":true,\"profesorId\":14,\"id\":22}"
     }
   }
 }
