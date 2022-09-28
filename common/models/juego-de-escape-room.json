@@ -19,6 +19,10 @@
       "type": "string",
       "required": true
     },
+    "Presencial": {
+      "type": "string",
+      "required": true
+    },
     "Activo": {
       "type": "boolean",
       "required": true,
@@ -35,6 +39,10 @@
     },
     "TiempoLimite": {
       "type": "number",
+      "required": true
+    },
+    "MecanicaEspecial": {
+      "type": "string",
       "required": true
     }
   },

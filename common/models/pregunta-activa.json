@@ -6,7 +6,16 @@
   "options": {
     "validateUpsert": true
   },
-  "properties": {},
+  "properties": {
+    "PuntosSumar": {
+      "type": "number",
+      "required": true
+    },
+    "PuntosRestar": {
+      "type": "number",
+      "required": true
+    }
+  },
   "validations": [],
   "relations": {
     "pregunta": {

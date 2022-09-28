@@ -10,6 +10,24 @@
     "orden": {
       "type": "string",
       "required": true
+    },
+    "TiempoLimite": {
+      "type": "number",
+      "required": true
+    },
+    "TipoRequisito": {
+      "type": "string",
+      "required": true
+    },
+    "RequisitoPuntos": {
+      "type": "number",
+      "required": true
+    },
+    "RequisitoObjetos": {
+      "type": [
+        "number"
+      ],
+      "required": true
     }
   },
   "validations": [],

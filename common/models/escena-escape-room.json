@@ -18,6 +18,9 @@
     "Tilesheet": {
       "type": "string",
       "required": true
+    },"View": {
+      "type": "string",
+      "required": true
     },
     "Publica": {
       "type": "boolean",

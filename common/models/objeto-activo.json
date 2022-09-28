@@ -44,6 +44,11 @@
     "Lugar": {
       "type": "string",
       "required": true
+    },
+    "RequisitoObjeto": {
+      "type": "boolean",
+      "required": true,
+      "default": false
     }
   },
   "validations": [],

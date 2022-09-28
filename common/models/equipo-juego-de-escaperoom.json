@@ -18,6 +18,10 @@
     "Resuelto": {
       "type": "boolean",
       "required": true
+    },
+    "MaxObjetos": {
+      "type": "number",
+      "required": true
     }
   },
   "validations": [],
