@@ -22,12 +22,6 @@
     "RequisitoPuntos": {
       "type": "number",
       "required": true
-    },
-    "RequisitoObjetos": {
-      "type": [
-        "number"
-      ],
-      "required": true
     }
   },
   "validations": [],
