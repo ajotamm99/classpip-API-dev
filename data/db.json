@@ -95,8 +95,8 @@
     "Carta": 257,
     "JuegoDeMemorama": 10,
     "AlumnoJuegoDeMemorama": 71,
-    "EscenarioEscapeRoom": 53,
-    "EscenaEscapeRoom": 96,
+    "EscenarioEscapeRoom": 54,
+    "EscenaEscapeRoom": 97,
     "ObjetoEscaperoom": 15,
     "EnigmaEscaperoom": 7,
     "Skin": 23
@@ -1828,11 +1828,13 @@
     "JuegoDeMemorama": {},
     "AlumnoJuegoDeMemorama": {},
     "EscenarioEscapeRoom": {
-      "52": "{\"Nombre\":\"wtrh\",\"Descripcion\":\"w46j\",\"Publica\":true,\"profesorId\":14,\"id\":52}"
+      "52": "{\"Nombre\":\"wtrh\",\"Descripcion\":\"w46j\",\"Publica\":true,\"profesorId\":14,\"id\":52}",
+      "53": "{\"Nombre\":\"hola\",\"Descripcion\":\"he\",\"Publica\":true,\"profesorId\":14,\"id\":53}"
     },
     "EscenaEscapeRoom": {
       "94": "{\"Nombre\":\"srth\",\"Archivo\":\"14example_1.json\",\"Tilesheet\":\"14candleA_04.png\",\"Publica\":false,\"escenarioEscapeRoomId\":52,\"id\":94}",
-      "95": "{\"Nombre\":\"aerhdtnsd\",\"Archivo\":\"14example_1 - copia - copia.json\",\"Tilesheet\":\"14ash.png\",\"Publica\":false,\"escenarioEscapeRoomId\":52,\"id\":95}"
+      "95": "{\"Nombre\":\"aerhdtnsd\",\"Archivo\":\"14example_1 - copia - copia.json\",\"Tilesheet\":\"14ash.png\",\"Publica\":false,\"escenarioEscapeRoomId\":52,\"id\":95}",
+      "96": "{\"Nombre\":\"shg\",\"Archivo\":\"14example_1 - copia - copia (3).json\",\"Tilesheet\":\"14decorative.png\",\"Publica\":false,\"escenarioEscapeRoomId\":52,\"id\":96}"
     },
     "ObjetoEscaperoom": {
       "14": "{\"Tipo\":\"pista\",\"Nombre\":\"wrj\",\"Imagen\":\"14decorative.png\",\"Publica\":true,\"profesorId\":14,\"id\":14}"

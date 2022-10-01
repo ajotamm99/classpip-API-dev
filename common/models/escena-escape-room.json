@@ -20,7 +20,7 @@
       "required": true
     },"View": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "Publica": {
       "type": "boolean",
