@@ -97,7 +97,7 @@
     "AlumnoJuegoDeMemorama": 71,
     "EscenarioEscapeRoom": 54,
     "EscenaEscapeRoom": 97,
-    "ObjetoEscaperoom": 15,
+    "ObjetoEscaperoom": 16,
     "EnigmaEscaperoom": 7,
     "Skin": 23
   },
@@ -1837,7 +1837,8 @@
       "96": "{\"Nombre\":\"shg\",\"Archivo\":\"14example_1 - copia - copia (3).json\",\"Tilesheet\":\"14decorative.png\",\"Publica\":false,\"escenarioEscapeRoomId\":52,\"id\":96}"
     },
     "ObjetoEscaperoom": {
-      "14": "{\"Tipo\":\"pista\",\"Nombre\":\"wrj\",\"Imagen\":\"14decorative.png\",\"Publica\":true,\"profesorId\":14,\"id\":14}"
+      "14": "{\"Tipo\":\"pista\",\"Nombre\":\"wrj\",\"Imagen\":\"14decorative.png\",\"Publica\":true,\"profesorId\":14,\"id\":14}",
+      "15": "{\"Tipo\":\"pista\",\"Nombre\":\"asdf\",\"Imagen\":\"14candleA_04.png\",\"Publica\":false,\"profesorId\":14,\"id\":15}"
     },
     "EnigmaEscaperoom": {
       "5": "{\"Nombre\":\"t\",\"Dificultad\":\"media\",\"Tipo\":\"mapa\",\"Publica\":false,\"profesorId\":14,\"id\":5}",

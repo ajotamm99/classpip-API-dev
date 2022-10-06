@@ -36,15 +36,6 @@
       "model": "JuegodeEscapeRoom",
       "foreignKey": "juegoDeEscaperoomId"
     },
-    "enigmaEscaperooms": {
-      "type": "hasMany",
-      "model": "EnigmaEscaperoom",
-      "foreignKey": "enigmaEscaperoomId",
-      "options": {
-        "nestRemoting": true
-      },
-      "through": "EnigmaActivo"
-    },
     "objetoEscaperooms": {
       "type": "hasMany",
       "model": "ObjetoEscaperoom",

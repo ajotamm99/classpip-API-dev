@@ -487,14 +487,6 @@
     "dataSource": "baseDatos",
     "public": true
   },
-  "EnigmaEscaperoom": {
-    "dataSource": "baseDatos",
-    "public": true
-  },
-  "EnigmaActivo": {
-    "dataSource": "baseDatos",
-    "public": true
-  },
   "ObjetoEscaperoom": {
     "dataSource": "baseDatos",
     "public": true
