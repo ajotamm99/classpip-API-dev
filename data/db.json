@@ -97,9 +97,14 @@
     "AlumnoJuegoDeMemorama": 71,
     "EscenarioEscapeRoom": 54,
     "EscenaEscapeRoom": 97,
-    "ObjetoEscaperoom": 16,
+    "ObjetoEscaperoom": 27,
     "EnigmaEscaperoom": 7,
-    "Skin": 23
+    "Skin": 23,
+    "JuegodeEscapeRoom": 12,
+    "EscenaActiva": 13,
+    "AlumnoJuegodeEscaperoom": 73,
+    "ObjetoActivo": 10,
+    "PreguntaActiva": 3
   },
   "models": {
     "Profesor": {
@@ -1837,8 +1842,14 @@
       "96": "{\"Nombre\":\"shg\",\"Archivo\":\"14example_1 - copia - copia (3).json\",\"Tilesheet\":\"14decorative.png\",\"Publica\":false,\"escenarioEscapeRoomId\":52,\"id\":96}"
     },
     "ObjetoEscaperoom": {
-      "14": "{\"Tipo\":\"pista\",\"Nombre\":\"wrj\",\"Imagen\":\"14decorative.png\",\"Publica\":true,\"profesorId\":14,\"id\":14}",
-      "15": "{\"Tipo\":\"pista\",\"Nombre\":\"asdf\",\"Imagen\":\"14candleA_04.png\",\"Publica\":false,\"profesorId\":14,\"id\":15}"
+      "17": "{\"Nombre\":\"asdf\",\"Imagen\":\"2022951533943814ash.png\",\"Publica\":true,\"profesorId\":14,\"id\":17}",
+      "18": "{\"Nombre\":\"trtrt\",\"Imagen\":\"2022951543722614ash.png\",\"Publica\":true,\"profesorId\":14,\"id\":18}",
+      "19": "{\"Nombre\":\"sfdgsd\",\"Imagen\":\"202295156343114candleA_01.png\",\"Publica\":true,\"profesorId\":14,\"id\":19}",
+      "22": "{\"Nombre\":\"45\",\"Imagen\":\"202295157257814decorative.png\",\"Publica\":true,\"profesorId\":14,\"id\":22}",
+      "23": "{\"Nombre\":\"4563\",\"Imagen\":\"202295157858014ash.png\",\"Publica\":true,\"profesorId\":14,\"id\":23}",
+      "24": "{\"Nombre\":\"45634\",\"Imagen\":\"2022951571544014candleA_02.png\",\"Publica\":true,\"profesorId\":14,\"id\":24}",
+      "25": "{\"Nombre\":\"6678\",\"Imagen\":\"2022951572234014decorative.png\",\"Publica\":true,\"profesorId\":14,\"id\":25}",
+      "26": "{\"Nombre\":\"dfghd\",\"Imagen\":\"20229515164314214ash.png\",\"Publica\":true,\"profesorId\":14,\"id\":26}"
     },
     "EnigmaEscaperoom": {
       "5": "{\"Nombre\":\"t\",\"Dificultad\":\"media\",\"Tipo\":\"mapa\",\"Publica\":false,\"profesorId\":14,\"id\":5}",
@@ -1846,6 +1857,11 @@
     },
     "Skin": {
       "22": "{\"Nombre\":\"yj\",\"Spritesheet\":\"14ash.png\",\"Publica\":true,\"profesorId\":14,\"id\":22}"
-    }
+    },
+    "JuegodeEscapeRoom": {},
+    "EscenaActiva": {},
+    "AlumnoJuegodeEscaperoom": {},
+    "ObjetoActivo": {},
+    "PreguntaActiva": {}
   }
 }

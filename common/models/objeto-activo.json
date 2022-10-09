@@ -43,7 +43,7 @@
     },
     "Lugar": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "RequisitoObjeto": {
       "type": "boolean",
