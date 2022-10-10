@@ -7,7 +7,7 @@
     "validateUpsert": true
   },
   "properties": {
-    "Nombre": {
+    "NombreJuego": {
       "type": "string",
       "required": true
     },
