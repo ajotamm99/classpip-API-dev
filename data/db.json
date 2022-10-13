@@ -76,7 +76,7 @@
     "AlumnoJuegoDeControlDeTrabajoEnEquipo": 137,
     "EquipoJuegoDeCuestionario": 31,
     "RespuestaEquipoJuegoDeCuestionario": 53,
-    "Evento": 963,
+    "Evento": 1021,
     "RecursosCuento": 5,
     "JuegoDeCuento": 9,
     "RecursoJuegoDeCuento": 9,
@@ -95,16 +95,16 @@
     "Carta": 257,
     "JuegoDeMemorama": 10,
     "AlumnoJuegoDeMemorama": 71,
-    "EscenarioEscapeRoom": 55,
-    "EscenaEscapeRoom": 98,
+    "EscenarioEscapeRoom": 56,
+    "EscenaEscapeRoom": 100,
     "ObjetoEscaperoom": 28,
     "EnigmaEscaperoom": 7,
     "Skin": 23,
-    "JuegodeEscapeRoom": 13,
-    "EscenaActiva": 14,
-    "AlumnoJuegodeEscaperoom": 81,
-    "ObjetoActivo": 10,
-    "PreguntaActiva": 3
+    "JuegodeEscapeRoom": 23,
+    "EscenaActiva": 25,
+    "AlumnoJuegodeEscaperoom": 161,
+    "ObjetoActivo": 12,
+    "PreguntaActiva": 4
   },
   "models": {
     "Profesor": {
@@ -1629,7 +1629,65 @@
       "959": "{\"TipoEvento\":2,\"FechayHora\":\"2022-08-29T14:59:01.077Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":49,\"NombreJuego\":\"prueba\",\"TipoJuego\":\"Juego De Votación Todos A Uno\",\"id\":959}",
       "960": "{\"TipoEvento\":2,\"FechayHora\":\"2022-08-29T14:59:13.152Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":49,\"NombreJuego\":\"prueba\",\"TipoJuego\":\"Juego De Votación Todos A Uno\",\"id\":960}",
       "961": "{\"TipoEvento\":2,\"FechayHora\":\"2022-08-29T14:59:34.965Z\",\"ProfesorID\":14,\"AlumnoID\":135,\"JuegoID\":49,\"NombreJuego\":\"prueba\",\"TipoJuego\":\"Juego De Votación Todos A Uno\",\"id\":961}",
-      "962": "{\"TipoEvento\":2,\"FechayHora\":\"2022-08-29T15:00:28.053Z\",\"ProfesorID\":14,\"AlumnoID\":137,\"JuegoID\":49,\"NombreJuego\":\"prueba\",\"TipoJuego\":\"Juego De Votación Todos A Uno\",\"id\":962}"
+      "962": "{\"TipoEvento\":2,\"FechayHora\":\"2022-08-29T15:00:28.053Z\",\"ProfesorID\":14,\"AlumnoID\":137,\"JuegoID\":49,\"NombreJuego\":\"prueba\",\"TipoJuego\":\"Juego De Votación Todos A Uno\",\"id\":962}",
+      "963": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-10T13:08:12.713Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":13,\"NombreJuego\":\"PruebaJuego\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":963}",
+      "964": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-10T13:09:25.789Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":13,\"NombreJuego\":\"PruebaJuego\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":964}",
+      "965": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-10T13:13:08.175Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":13,\"NombreJuego\":\"PruebaJuego\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":965}",
+      "966": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-10T13:17:40.416Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":13,\"NombreJuego\":\"PruebaJuego\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":966}",
+      "967": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-10T13:22:39.458Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":13,\"NombreJuego\":\"PruebaJuego\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":967}",
+      "968": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-10T13:53:28.186Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":13,\"NombreJuego\":\"PruebaJuego\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":968}",
+      "969": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-10T16:39:32.536Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":13,\"NombreJuego\":\"PruebaJuego\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":969}",
+      "970": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-10T16:41:42.254Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":13,\"NombreJuego\":\"PruebaJuego\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":970}",
+      "971": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-10T16:42:11.180Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":13,\"NombreJuego\":\"PruebaJuego\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":971}",
+      "972": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-10T16:45:17.099Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":13,\"NombreJuego\":\"PruebaJuego\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":972}",
+      "973": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-10T16:47:41.127Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":13,\"NombreJuego\":\"PruebaJuego\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":973}",
+      "974": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-10T16:52:32.182Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":13,\"NombreJuego\":\"PruebaJuego\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":974}",
+      "975": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-10T16:53:34.340Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":13,\"NombreJuego\":\"PruebaJuego\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":975}",
+      "976": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-10T17:31:15.967Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":13,\"NombreJuego\":\"PruebaJuego\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":976}",
+      "977": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-10T17:32:20.192Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":13,\"NombreJuego\":\"PruebaJuego\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":977}",
+      "978": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-10T22:15:41.641Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":13,\"NombreJuego\":\"PruebaJuego\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":978}",
+      "979": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-11T06:06:23.471Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":13,\"NombreJuego\":\"PruebaJuego\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":979}",
+      "980": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-11T12:38:20.644Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":13,\"NombreJuego\":\"PruebaJuego\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":980}",
+      "981": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-11T15:47:06.800Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":13,\"NombreJuego\":\"PruebaJuego\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":981}",
+      "982": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-11T15:48:55.957Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":13,\"NombreJuego\":\"PruebaJuego\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":982}",
+      "983": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-11T16:31:51.130Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":13,\"NombreJuego\":\"PruebaJuego\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":983}",
+      "984": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-11T16:34:37.653Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":13,\"NombreJuego\":\"PruebaJuego\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":984}",
+      "985": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-11T16:36:38.322Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":13,\"NombreJuego\":\"PruebaJuego\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":985}",
+      "986": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-11T16:36:45.866Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":13,\"NombreJuego\":\"PruebaJuego\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":986}",
+      "987": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-11T16:37:01.896Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":13,\"NombreJuego\":\"PruebaJuego\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":987}",
+      "988": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-11T16:40:19.334Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":13,\"NombreJuego\":\"PruebaJuego\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":988}",
+      "989": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-11T16:40:23.349Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":13,\"NombreJuego\":\"PruebaJuego\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":989}",
+      "990": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-11T16:40:27.256Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":13,\"NombreJuego\":\"PruebaJuego\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":990}",
+      "991": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-11T16:47:21.942Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":13,\"NombreJuego\":\"PruebaJuego\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":991}",
+      "992": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-11T16:50:32.340Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":13,\"NombreJuego\":\"PruebaJuego\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":992}",
+      "993": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-11T16:52:03.491Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":13,\"NombreJuego\":\"PruebaJuego\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":993}",
+      "994": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-11T16:52:09.949Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":13,\"NombreJuego\":\"PruebaJuego\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":994}",
+      "995": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-11T16:54:21.965Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":13,\"NombreJuego\":\"PruebaJuego\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":995}",
+      "996": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-11T16:55:38.545Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":13,\"NombreJuego\":\"PruebaJuego\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":996}",
+      "997": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-11T16:57:23.280Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":13,\"NombreJuego\":\"PruebaJuego\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":997}",
+      "998": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-11T17:00:27.364Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":13,\"NombreJuego\":\"PruebaJuego\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":998}",
+      "999": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-11T17:03:43.333Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":13,\"NombreJuego\":\"PruebaJuego\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":999}",
+      "1000": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-11T17:04:03.174Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":13,\"NombreJuego\":\"PruebaJuego\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":1000}",
+      "1001": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-11T17:04:05.637Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":13,\"NombreJuego\":\"PruebaJuego\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":1001}",
+      "1002": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-11T17:23:09.970Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":13,\"NombreJuego\":\"PruebaJuego\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":1002}",
+      "1003": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-12T10:47:25.924Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":13,\"NombreJuego\":\"PruebaJuego\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":1003}",
+      "1004": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-12T10:47:54.213Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":13,\"NombreJuego\":\"PruebaJuego\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":1004}",
+      "1005": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-12T10:47:59.138Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":13,\"NombreJuego\":\"PruebaJuego\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":1005}",
+      "1006": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-12T10:48:04.847Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":13,\"NombreJuego\":\"PruebaJuego\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":1006}",
+      "1007": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-12T11:05:52.980Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":14,\"NombreJuego\":\"JuegoPrueba2\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":1007}",
+      "1008": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-12T14:55:10.607Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":21,\"NombreJuego\":\"asdf\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":1008}",
+      "1009": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-12T17:49:34.888Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":21,\"NombreJuego\":\"asdf\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":1009}",
+      "1010": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-13T14:23:55.551Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":21,\"NombreJuego\":\"asdf\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":1010}",
+      "1011": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-13T15:14:05.978Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":21,\"NombreJuego\":\"asdf\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":1011}",
+      "1012": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-13T15:14:36.396Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":21,\"NombreJuego\":\"asdf\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":1012}",
+      "1013": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-13T15:14:47.930Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":21,\"NombreJuego\":\"asdf\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":1013}",
+      "1014": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-13T15:14:51.762Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":21,\"NombreJuego\":\"asdf\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":1014}",
+      "1015": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-13T15:23:27.602Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":21,\"NombreJuego\":\"asdf\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":1015}",
+      "1016": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-13T17:23:11.532Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":21,\"NombreJuego\":\"asdf\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":1016}",
+      "1017": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-13T17:32:15.101Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":21,\"NombreJuego\":\"asdf\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":1017}",
+      "1018": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-13T18:33:40.652Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":21,\"NombreJuego\":\"asdf\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":1018}",
+      "1019": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-13T21:59:02.849Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":21,\"NombreJuego\":\"asdf\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":1019}",
+      "1020": "{\"TipoEvento\":2,\"FechayHora\":\"2022-10-13T21:59:08.307Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":21,\"NombreJuego\":\"asdf\",\"TipoJuego\":\"Juego De Escaperoom\",\"id\":1020}"
     },
     "RecursosCuento": {
       "3": "{\"nombre\":\"Caso2\",\"carpeta\":\"Recursos-Caso2\",\"imagenes\":[{\"url\":\"c_1.png\",\"nombre\":\"c_1.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"g30203.png\",\"nombre\":\"g30203.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"c_2.png\",\"nombre\":\"c_2.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"c_6.png\",\"nombre\":\"c_6.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"c_7.png\",\"nombre\":\"c_7.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"c_9.png\",\"nombre\":\"c_9.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"Caso1_camping.png\",\"nombre\":\"Caso1_camping.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"Caso1_castillo.png\",\"nombre\":\"Caso1_castillo.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"Caso1_ciudad.png\",\"nombre\":\"Caso1_ciudad.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"Caso1_desierto.png\",\"nombre\":\"Caso1_desierto.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"Caso1_marte.png\",\"nombre\":\"Caso1_marte.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"g29934.png\",\"nombre\":\"g29934.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g30002.png\",\"nombre\":\"g30002.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g30063.png\",\"nombre\":\"g30063.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g30269.png\",\"nombre\":\"g30269.png\",\"tipo\":\"personaje\",\"especial\":false}],\"profesorId\":14,\"id\":3}",
@@ -1833,19 +1891,52 @@
     "JuegoDeMemorama": {},
     "AlumnoJuegoDeMemorama": {},
     "EscenarioEscapeRoom": {
-      "54": "{\"Nombre\":\"EscenarioPrueba\",\"Descripcion\":\"Ún escenario de prueba\",\"Publica\":true,\"profesorId\":14,\"id\":54}"
+      "54": "{\"Nombre\":\"EscenarioPrueba\",\"Descripcion\":\"Ún escenario de prueba\",\"Publica\":true,\"profesorId\":14,\"id\":54}",
+      "55": "{\"Nombre\":\"sc\",\"Descripcion\":\"sc\",\"Publica\":true,\"profesorId\":14,\"id\":55}"
     },
-    "EscenaEscapeRoom": {},
+    "EscenaEscapeRoom": {
+      "98": "{\"Nombre\":\"Escena1\",\"Archivo\":\"20229114553668114escena.json\",\"Tilesheet\":\"20229114553390514mainlevbuild.png\",\"Publica\":false,\"escenarioEscapeRoomId\":54,\"id\":98}",
+      "99": "{\"Nombre\":\"dfb\",\"Archivo\":\"2022927571527214example_1.json\",\"Tilesheet\":\"2022927571210014ash.png\",\"Publica\":false,\"escenarioEscapeRoomId\":54,\"id\":99}"
+    },
     "ObjetoEscaperoom": {
       "27": "{\"Nombre\":\"ObjetoPrueba\",\"Imagen\":\"20229114254448314candleA_04.png\",\"Publica\":false,\"profesorId\":14,\"id\":27}"
     },
     "Skin": {
       "22": "{\"Nombre\":\"yj\",\"Spritesheet\":\"14ash.png\",\"Publica\":true,\"profesorId\":14,\"id\":22}"
     },
-    "JuegodeEscapeRoom": {},
-    "EscenaActiva": {},
-    "AlumnoJuegodeEscaperoom": {},
-    "ObjetoActivo": {},
-    "PreguntaActiva": {}
+    "JuegodeEscapeRoom": {
+      "20": "{\"NombreJuego\":\"Ss\",\"Tipo\":\"Juego De Escaperoom\",\"Modo\":\"Individual\",\"Presencial\":\"Clase\",\"JuegoActivo\":true,\"Online\":false,\"JuegoTerminado\":false,\"TiempoLimite\":55,\"MecanicaEspecial\":\"fantasma\",\"grupoId\":77,\"escenarioEscaperoomId\":54,\"id\":20}",
+      "21": "{\"NombreJuego\":\"asdf\",\"Tipo\":\"Juego De Escaperoom\",\"Modo\":\"Individual\",\"Presencial\":\"Clase\",\"JuegoActivo\":true,\"Online\":false,\"JuegoTerminado\":false,\"TiempoLimite\":55,\"MecanicaEspecial\":\"fantasma\",\"grupoId\":77,\"escenarioEscaperoomId\":54,\"id\":21}",
+      "22": "{\"NombreJuego\":\"asdf\",\"Tipo\":\"Juego De Escaperoom\",\"Modo\":\"Individual\",\"Presencial\":\"Clase\",\"JuegoActivo\":true,\"Online\":false,\"JuegoTerminado\":false,\"TiempoLimite\":55,\"MecanicaEspecial\":\"fantasma\",\"grupoId\":77,\"escenarioEscaperoomId\":54,\"id\":22}"
+    },
+    "EscenaActiva": {
+      "23": "{\"orden\":\"1\",\"TiempoLimite\":55,\"TipoRequisito\":\"puntos\",\"RequisitoPuntos\":5,\"escenarioEscaperoomId\":54,\"escenaEscaperoomId\":98,\"juegoDeEscaperoomId\":21,\"id\":23}",
+      "24": "{\"orden\":\"1\",\"TiempoLimite\":65,\"TipoRequisito\":\"puntos\",\"RequisitoPuntos\":5,\"escenarioEscaperoomId\":54,\"escenaEscaperoomId\":98,\"juegoDeEscaperoomId\":22,\"id\":24}"
+    },
+    "AlumnoJuegodeEscaperoom": {
+      "145": "{\"PuntosTotalesAlumno\":0,\"TiempoEnResolver\":0,\"Resuelto\":false,\"MaxObjetos\":4,\"alumnoId\":136,\"juegoDeEscaperoomId\":21,\"ObjetosActivosEnMochila\":[],\"id\":145}",
+      "146": "{\"PuntosTotalesAlumno\":0,\"TiempoEnResolver\":0,\"Resuelto\":false,\"MaxObjetos\":4,\"alumnoId\":135,\"juegoDeEscaperoomId\":21,\"ObjetosActivosEnMochila\":[],\"id\":146}",
+      "147": "{\"PuntosTotalesAlumno\":0,\"TiempoEnResolver\":0,\"Resuelto\":false,\"MaxObjetos\":4,\"alumnoId\":137,\"juegoDeEscaperoomId\":21,\"ObjetosActivosEnMochila\":[],\"id\":147}",
+      "148": "{\"PuntosTotalesAlumno\":0,\"TiempoEnResolver\":0,\"Resuelto\":false,\"MaxObjetos\":4,\"alumnoId\":139,\"juegoDeEscaperoomId\":21,\"ObjetosActivosEnMochila\":[],\"id\":148}",
+      "149": "{\"PuntosTotalesAlumno\":0,\"TiempoEnResolver\":0,\"Resuelto\":false,\"MaxObjetos\":4,\"alumnoId\":138,\"juegoDeEscaperoomId\":21,\"ObjetosActivosEnMochila\":[],\"id\":149}",
+      "150": "{\"PuntosTotalesAlumno\":0,\"TiempoEnResolver\":0,\"Resuelto\":false,\"MaxObjetos\":4,\"alumnoId\":140,\"juegoDeEscaperoomId\":21,\"ObjetosActivosEnMochila\":[],\"id\":150}",
+      "151": "{\"PuntosTotalesAlumno\":0,\"TiempoEnResolver\":0,\"Resuelto\":false,\"MaxObjetos\":4,\"alumnoId\":141,\"juegoDeEscaperoomId\":21,\"ObjetosActivosEnMochila\":[],\"id\":151}",
+      "152": "{\"PuntosTotalesAlumno\":0,\"TiempoEnResolver\":0,\"Resuelto\":false,\"MaxObjetos\":4,\"alumnoId\":142,\"juegoDeEscaperoomId\":21,\"ObjetosActivosEnMochila\":[],\"id\":152}",
+      "153": "{\"PuntosTotalesAlumno\":0,\"TiempoEnResolver\":0,\"Resuelto\":false,\"MaxObjetos\":4,\"alumnoId\":136,\"juegoDeEscaperoomId\":22,\"ObjetosActivosEnMochila\":[],\"id\":153}",
+      "154": "{\"PuntosTotalesAlumno\":0,\"TiempoEnResolver\":0,\"Resuelto\":false,\"MaxObjetos\":4,\"alumnoId\":135,\"juegoDeEscaperoomId\":22,\"ObjetosActivosEnMochila\":[],\"id\":154}",
+      "155": "{\"PuntosTotalesAlumno\":0,\"TiempoEnResolver\":0,\"Resuelto\":false,\"MaxObjetos\":4,\"alumnoId\":137,\"juegoDeEscaperoomId\":22,\"ObjetosActivosEnMochila\":[],\"id\":155}",
+      "156": "{\"PuntosTotalesAlumno\":0,\"TiempoEnResolver\":0,\"Resuelto\":false,\"MaxObjetos\":4,\"alumnoId\":139,\"juegoDeEscaperoomId\":22,\"ObjetosActivosEnMochila\":[],\"id\":156}",
+      "157": "{\"PuntosTotalesAlumno\":0,\"TiempoEnResolver\":0,\"Resuelto\":false,\"MaxObjetos\":4,\"alumnoId\":138,\"juegoDeEscaperoomId\":22,\"ObjetosActivosEnMochila\":[],\"id\":157}",
+      "158": "{\"PuntosTotalesAlumno\":0,\"TiempoEnResolver\":0,\"Resuelto\":false,\"MaxObjetos\":4,\"alumnoId\":140,\"juegoDeEscaperoomId\":22,\"ObjetosActivosEnMochila\":[],\"id\":158}",
+      "159": "{\"PuntosTotalesAlumno\":0,\"TiempoEnResolver\":0,\"Resuelto\":false,\"MaxObjetos\":4,\"alumnoId\":141,\"juegoDeEscaperoomId\":22,\"ObjetosActivosEnMochila\":[],\"id\":159}",
+      "160": "{\"PuntosTotalesAlumno\":0,\"TiempoEnResolver\":0,\"Resuelto\":false,\"MaxObjetos\":4,\"alumnoId\":142,\"juegoDeEscaperoomId\":22,\"ObjetosActivosEnMochila\":[],\"id\":160}"
+    },
+    "ObjetoActivo": {
+      "10": "{\"Usado\":false,\"EnMochila\":false,\"MochilaBool\":false,\"PistaBool\":false,\"MovilBool\":false,\"PreguntaBool\":true,\"RequisitoObjeto\":false,\"objetoEscaperoomId\":27,\"escenaActivaId\":23,\"juegoDeEscaperoomId\":21,\"id\":10}",
+      "11": "{\"Usado\":false,\"EnMochila\":false,\"MochilaBool\":false,\"PistaBool\":false,\"MovilBool\":false,\"PreguntaBool\":true,\"RequisitoObjeto\":false,\"objetoEscaperoomId\":27,\"escenaActivaId\":24,\"juegoDeEscaperoomId\":21,\"id\":11}"
+    },
+    "PreguntaActiva": {
+      "3": "{\"PuntosSumar\":55,\"PuntosRestar\":5,\"preguntaId\":272,\"objetoActivoId\":11,\"juegoDeEscaperoomId\":21,\"id\":3}"
+    }
   }
 }

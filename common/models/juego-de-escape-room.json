@@ -23,7 +23,7 @@
       "type": "string",
       "required": true
     },
-    "Activo": {
+    "JuegoActivo": {
       "type": "boolean",
       "required": true,
       "default": true
@@ -33,7 +33,7 @@
       "required": true,
       "default": false
     },
-    "Terminado": {
+    "JuegoTerminado": {
       "type": "boolean",
       "default": false
     },
@@ -63,6 +63,22 @@
     "escenaActivas": {
       "type": "hasMany",
       "model": "EscenaActiva",
+      "foreignKey": "juegoDeEscaperoomId",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "objetoActivos": {
+      "type": "hasMany",
+      "model": "ObjetoActivo",
+      "foreignKey": "juegoDeEscaperoomId",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "preguntaActivas": {
+      "type": "hasMany",
+      "model": "PreguntaActiva",
       "foreignKey": "juegoDeEscaperoomId",
       "options": {
         "nestRemoting": true

@@ -18,7 +18,8 @@
     "Tilesheet": {
       "type": "string",
       "required": true
-    },"View": {
+    },
+    "View": {
       "type": "string",
       "required": false
     },
